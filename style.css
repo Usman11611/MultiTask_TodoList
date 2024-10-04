@@ -1,0 +1,121 @@
+/* // Name: Usman Haider        MultiTask-TodoList      Date:03/23/2024
+/* styles.css */
+
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Global styles */
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: 'Poppins', sans-serif; /* Use Poppins font family */
+    color: #333; /* Dark text color */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    background-image: linear-gradient(135deg, #6e8efb, #a777e3); /* Gradient background */
+}
+
+/* Container styles */
+.container {
+    margin-top: 20px; /* Add top margin */
+    background: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    padding: 20px; /* Add padding */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* Add shadow */
+}
+
+/* Card styles */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1); /* Add shadow */
+    transition: 0.3s; /* Smooth transition */
+    border: none; /* Remove border */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Hover shadow effect */
+}
+
+/* Card header styles */
+.card-header {
+    background-color: #007bff; /* Blue header */
+    color: white; /* White text */
+    font-weight: 600; /* Bold font weight */
+    font-size: 24px; /* Larger font size */
+    text-align: center; /* Centered text */
+    padding: 20px 0; /* Padding top and bottom */
+}
+
+/* Button styles */
+.btn {
+    margin: 5px; /* Add margin */
+    border: none; /* Remove border */
+    font-weight: 600; /* Bold font weight */
+    text-transform: uppercase; /* Uppercase text */
+    transition: all 0.2s ease-in-out; /* Smooth transition */
+    letter-spacing: 1px; /* Add letter spacing */
+    outline: none; /* Remove outline */
+    border-radius: 25px; /* Rounded corners */
+    padding: 10px 25px; /* Add padding */
+}
+
+/* Button color variations */
+.btn-info, .btn-danger, .btn-success, .btn-primary {
+    color: #fff; /* White text */
+    border-radius: 20px; /* Rounded corners */
+}
+
+.btn-info {
+    background-color: #26a69a; /* Teal */
+}
+
+.btn-danger {
+    background-color: #ef5350; /* Red */
+}
+
+.btn-success {
+    background-color: #66bb6a; /* Green */
+}
+
+.btn-primary {
+    background-color: #42a5f5; /* Blue */
+}
+
+/* Button hover effect */
+.btn:hover {
+    transform: scale(1.05); /* Scale on hover */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Hover shadow effect */
+}
+
+/* Table styles */
+.table {
+    margin-top: 20px; /* Add top margin */
+}
+
+thead.thead-dark {
+    background-color: #424242; /* Dark background for table head */
+    color: white; /* White text */
+}
+
+th, td {
+    text-align: center; /* Center align table cells */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        margin: 10px; /* Adjust margin */
+        padding: 10px; /* Adjust padding */
+    }
+}
+
+/* Background image styles */
+.background-image {
+    position: fixed; /* Fixed positioning */
+    bottom: 0; /* Anchored to bottom */
+    left: 0; /* Anchored to left */
+    width: 100%; /* Full width */
+    height: 50%; /* Adjust height */
+    background: url('img/To-do.webp') no-repeat bottom center; /* Background image */
+    background-size: contain; /* Contain background image */
+    z-index: -1; /* Behind other content */
+}
