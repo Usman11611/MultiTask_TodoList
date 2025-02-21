@@ -1,7 +1,7 @@
 MultiTask-TodoList                                                                    Date:03/27/2024
 
 Description
-The MultiTask-TodoList application is a personal project developed by Usman Haider. The application has since been enhanced to offer a robust task management system. The application allows users to efficiently manage their tasks by creating, updating, marking as done/undone, and deleting to-do items.
+The MultiTask-TodoList application is a personal project developed by Usman Haider. The application offers a robust task management system, allowing users to efficiently manage their tasks by creating, updating, marking as done/undone, and deleting to-do items.
 
 Features
 Create To-Do: Add new tasks with a title, priority, and deadline.
